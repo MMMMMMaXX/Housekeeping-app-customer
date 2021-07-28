@@ -8,7 +8,7 @@ Vue.use(Toast);
 
 let token = '';
 // 1. 基础路径
-axios.defaults.baseURL = 'http://47.106.112.130:8002/'
+axios.defaults.baseURL = 'http://47.102.202.74:8002/'
 axios.defaults.headers.post['Content-Type'] = 'application/json';//配置请求头
 
 // http request拦截器 添加一个请求拦截器
